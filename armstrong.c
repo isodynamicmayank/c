@@ -3,7 +3,7 @@
  AUTHOR:AKASH SINHA
  DATE:2025-01-11
  OBJECTIVE:Find whether a number is armstrong number or not
- PROBLEM STATEMENT:WRITE A PROGRAM IN C TO PRINT IF A NUMBER IS armstrong  OR NOT
+ PROBLEM STATEMENT:WRITE A PROGRAM IN C TO PRINT IF A NUMBER IS "ARMSTRONG"  OR NOT
  */
 
 /* MAGIC NUMBER :A number is said to be armstrong number if sum of  each digit in a number  raised to power" the number of digits in that number" is equal to  the number itself
@@ -22,8 +22,9 @@ int count_number_of_digits(int n)
     return count;
 }
 int main() {
-    
-    int n =1634;
+    int n;
+    printf("enter the number");
+    scanf("%d",&n);
     int temp=n;
     int count =count_number_of_digits(n);
     int newnum=0;
